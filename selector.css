@@ -1,0 +1,59 @@
+body{
+    background-color: #bdc3c7;
+    
+}
+h1{
+    background-color:  #9b59b6*;
+}
+h2{
+    background-color: orange;
+}
+li{
+    background-color: #0000ff;
+}
+p{
+    background-color: yellow;
+}
+input{
+    font-size: 3px red border;
+}
+.helo{
+    background-color: white;
+}
+#special{
+    border-bottom: 2px solid blue border;
+}
+div > p{
+    font-size: 25px;
+}
+.text{
+    background-color: grey;
+}
+#third.p{
+    background-color: pink;
+}
+#third.second {
+    border-bottom: 5px white border;
+}
+#third{
+    background-color: white;
+    font-size: 20px;
+    font-size: 2em;
+}
+/* BONUS CHALLENGE */
+ul > li{
+    margin-left: 50px;
+}
+label{
+    text-transform: uppercase;
+}
+#special:nth-of-type(1){
+    color: green;
+    font-size: 100px;
+}
+h1:hover{
+    color:blue;
+}
+a:visited{
+    color: gray;
+}
