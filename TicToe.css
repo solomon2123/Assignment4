@@ -1,0 +1,45 @@
+/* in order to move to the middle first we make all element are at the position of (0,0)*/
+* {
+    margin:0px;
+    padding: 0px;
+   
+    background-color:white;
+    
+  }
+
+.container {
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    padding: 90px;
+  }
+  .box{
+    border-collapse: collapse;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+  
+  }
+  .row {
+    font-size: 3rem;
+    border-collapse: collapse;
+    border: 3px solid black;
+    
+  }
+  
+#row1col1,#row1col2,#row1col3{
+    border-top: none;
+   
+}
+#row1col1,#row2col1,#row3col1{
+    border-left: none;
+   
+}
+#row3col1,#row3col2,#row3col3{
+    border-bottom: none;
+}
+#row1col3,#row2col3,#row3col3{
+    border-right: none;
+}
