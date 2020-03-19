@@ -1,0 +1,92 @@
+.Homepage{
+    font-size: 40px;
+    background-color:black;
+    color: white;
+    padding-left: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    margin: 30px;
+    word-spacing: 40px;
+    
+}
+.Oval{
+    margin: 30px;
+    padding: 20px;
+    
+}
+.Description{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+.SocialMedia{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    margin: 30px;
+    text-decoration: none;
+    font-size: 25px;
+}
+.ADD{
+    padding-top: 15px;
+    outline-style:5px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+.Form{
+    padding-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+.Map{
+    padding-left: 100px;
+    width: 600px;
+    height: 600px;
+}
+.media{
+    background-color: red;
+    border: 1px solid black;
+    margin-left: 30px;
+}
+  @media screen and (min-width: 1000px) {
+    .media {
+      background-color: lightgreen;
+    }
+  }
+
+.home:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .contact:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .gallary:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .mywork:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .sola:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .bloh:hover{
+    background-color: white;
+    color: black;
+    
+  }

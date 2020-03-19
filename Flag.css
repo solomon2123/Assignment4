@@ -1,0 +1,379 @@
+.container1{
+    display:flex;
+    background-color: white;
+}
+.container2{
+    display:flex;
+    background-color: white;
+    padding-top: 100px;
+}
+.container3{
+    background-color: white;
+    display: flex;
+    padding-top: 100px;
+}
+.container4{
+    display: flex;
+    background-color: white;
+    padding-top: 100px;
+}
+.container5{
+    display: flex;
+    background-color: white;
+    padding-top: 100px;
+}
+
+.Flag1{
+     height: 200px;
+     width: 300px;
+     border: 1px solid white;
+     margin-left: 100px;
+     
+}
+.circ{
+    position: relative;
+    background-color: blue;
+    height:80%;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px auto;
+}
+.Eth{
+    height: 33.33%;
+    box-sizing: border-box;
+}
+.row11{
+    background-color: green;
+}
+.row12{
+    background-color: yellow;
+}
+.row13{
+    background-color: red;
+}
+.Flag2{
+    height: 200px;
+    width: 300px;
+    border: 1px solid white;
+    margin-left: 50px;
+}
+.Bol{
+    height: 33.33%;
+    box-sizing: border-box;
+}
+.row21{
+    background-color: red;
+}
+.row22{
+    background-color: yellow;
+}
+.row23{
+    background-color: green;
+}
+.flag3{
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+    border: 1px solid white;
+}
+.Aus{
+    height: 33.33%;
+    box-sizing: border-box;
+}
+.row31{
+    background-color: rgb(228, 51, 51)
+}
+.row32{
+    background-color: white;
+}
+.row33{
+    background-color: rgb(228, 51, 51)
+}
+.flag4{
+    margin-left: 100px;
+}
+.row41{
+    background-color: teal;
+    width: 300px;
+    height: 200px;
+}
+.row42{
+    background-color: white;
+    width: 33.33%;
+    height: 100px;
+}
+.row43{
+    background-color: teal;
+    width: 33.33%;
+    height: 100px;
+}
+.flag5{
+    height: 200px;
+    width: 300px;
+    border: 1px solid white;
+    margin-left: 50px;
+}
+.Niger{
+    height: 33.33%;
+    box-sizing: border-box;
+}
+.row51{
+    background-color:orange;
+
+}
+.row52{
+    background-color: white;
+
+}
+.row53{
+    background-color: green;
+}
+.circle{
+    position: relative;
+    background-color: orange;
+    height:80%;
+    width: 30px;
+    border-radius: 50%;
+    margin: 2px auto;
+}
+.flag6{
+    margin-left: 50px;
+}
+.row61{
+    background-color: red;
+    width: 75px;
+    height: 200px;
+
+}
+.can{
+    border: 1px solid wheat;
+}
+.row62{
+    background-color: white;
+    width: 150;
+    height: 100px;
+    
+}
+.row63{
+    background-color: red;
+    width: 75px;
+    height: 100px;
+}
+
+
+.flag7{
+    width: 300px;
+    height: 200px;
+    border: 1px solid white;
+    margin-left: 100px;
+}
+.jap{
+    height: 33.33%;
+    box-sizing: border-box;
+}
+.row71,.row72,.row73{
+    background-color: whitesmoke;
+}
+.circle2{
+    position: relative;
+    background-color:red;
+    height:80%;
+    width: 30px;
+    
+    border-radius: 50%;
+    margin: 2px auto;
+}
+.flag8{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    margin-left: 50px;
+}
+.gha{
+    height: 33.33%;
+    box-sizing: border-box;
+}
+.row81{
+    background-color: red;
+}
+.row82{
+    background-color: yellow;
+}
+.row83{
+    background-color: green;
+}
+.flag9{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+}
+.Eng{
+    box-sizing: border-box;
+   height: 100%;
+   border: 1px solid wheat;
+
+}
+.Engli{
+    background-color: red;
+    height: 30px;
+    width: 300px;
+    margin-top: 100px;
+}
+.Englis{
+    position: absolute;
+    background-color: red;
+    height: 200px;
+    width: 30px;
+    top:50%;
+    margin-left: 130px;
+    margin-top: 440px;
+}
+.flag10{
+    margin-left: 100px;
+}
+.row101{
+    background-color:blue;
+    width: 100px;
+    height: 200px;
+
+}
+
+.row102{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    
+}
+.row103{
+    background-color:tomato;
+    height: 100px;
+    width: 100px;
+}
+.starSu{
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 80px solid blue;
+    
+   
+}
+.starSu:after{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 80px solid blue;
+   
+}
+.flag11{
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    margin-left: 50px;
+}
+.SW{
+    box-sizing: border-box;
+   height: 100%;
+   border: 1px solid wheat;
+   background-color: red;
+
+}
+.SWi{
+    background-color:white;
+    height: 40px;
+    width: 130px;
+    margin-top: 80px;
+    margin-left:90px ;
+}
+.SWit{
+    position: absolute;
+    background-color: white;
+    height: 100px;
+    width: 30px;
+    top:50%;
+    margin-left: 130px;
+    margin-top: 800px;
+    padding: 10px;
+}
+.flag12{
+    margin-left: 50px;
+}
+.row121{
+    background-color:blue;
+    width: 300px;
+    height: 200px;
+}
+.row122{
+    background-color: white;
+    width: 33.33%;
+    height: 100px;
+}
+.row123{
+    background-color:red;
+    width: 33.33%;
+    height: 100px;
+}
+h1{
+    border: 1px solid black;
+}
+
+.Flag13{
+    margin-left: 100px;
+}
+.bel121{
+    background-color:black;
+    width: 300px;
+    height: 200px;
+}
+.bel122{
+    background-color:yellow;
+    width: 33.33%;
+    height: 100px;
+}
+.bel123{
+    background-color:red;
+    width: 33.33%;
+    height: 100px;
+}
+
+.Flag14{
+    margin-left: 50px;
+}
+.mal121{
+    background-color:green;
+    width: 300px;
+    height: 200px;
+}
+.mal122{
+    background-color:yellow;
+    width: 33.33%;
+    height: 100px;
+}
+.mal123{
+    background-color:red;
+    width: 33.33%;
+    height: 100px;
+}
+
+.Flag15{
+    margin-left: 50px;
+}
+.cha121{
+    background-color:blue;
+    width: 300px;
+    height: 200px;
+}
+.cha122{
+    background-color:yellow;
+    width: 33.33%;
+    height: 100px;
+}
+.cha123{
+    background-color:red;
+    width: 33.33%;
+    height: 100px;
+}

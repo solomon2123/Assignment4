@@ -1,0 +1,73 @@
+.pages{
+    font-size: 40px;
+    background-color:black;
+    color: white;
+    padding-left: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    margin: 30px;
+    word-spacing: 40px;
+    
+}
+.description{
+    display: flex;
+}
+.des{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.Gallary{
+    border-top: 1px solid black;
+    border-bottom:1px solid black ;
+    text-align: center;
+}
+.row1,.row2,.row3,.addi{
+    display: flex;
+    margin-top: 10px;
+    margin: 20px;
+    padding: 20px;
+}
+.row10{
+    margin: 5px;
+}
+h6{
+    border: 1px solid black;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.home:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .contact:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .gallary:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .mywork:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .sola:hover{
+    background-color: white;
+    color: black;
+    
+  }
+  .bloh:hover{
+    background-color: white;
+    color: black;
+    
+  }

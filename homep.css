@@ -1,0 +1,66 @@
+.pages{
+    font-size: 40px;
+    background-color:black;
+    color: white;
+    padding-left: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    margin: 30px;
+    word-spacing: 40px;
+    
+}
+.DES{
+    display: flex;
+    margin-left: 10px;
+}
+.INFO{
+  padding-left: 25px;
+  margin-top: 20px;
+  border: 2px solid black;
+}
+.home:hover{
+  background-color: white;
+  color: black;
+  
+}
+.contact:hover{
+  background-color: white;
+  color: black;
+  
+}
+.gallary:hover{
+  background-color: white;
+  color: black;
+  
+}
+.mywork:hover{
+  background-color: white;
+  color: black;
+  
+}
+.sola:hover{
+  background-color: white;
+  color: black;
+  
+}
+.blog:hover{
+  background-color: white;
+  color: black;
+  
+}
+@media (max-width: 50px) {
+ .DES {   
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 2000px) {
+  .pages a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+
