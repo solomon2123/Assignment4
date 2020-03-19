@@ -4,33 +4,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blog</title>
     <style>
-        .link1{
-            display: inline;
-            color:black;
-            background-color:black;
-            color: white;
-            font-size: 100px;
-            margin: 150px;
-            padding: 100px;
-            word-spacing: 50px;
+        h1{
+            background-color: black;
             text-align: center;
+            color: white;
+            margin: 30px;
+            padding: 30px;
         }
-        .link1:hover{
-            color: cornflowerblue;
+      
+        h1.ques4{
+            color: black;
+            background-color: white;
+            margin: 5px;
+            padding: 5px;
         }
-        .link1:visited{
-            color: yellow;
+        p.ques4{
+            color:black;
+            margin: 5px;
+            padding: 5px;
+
         }
-        body{
-            background-color: aqua;
+        h2.ques4{
+            color: white;
+            background-color: black;
+            margin: 10px;
+            padding: 10px;
+
+        }
+        ul.ques4{
+            margin: 5pxpx;
+            padding: 5px;
+        }
+        ol.ques4{
+            margin: 5px;
+            padding: 5px;
+        }
+        h2.ques5{
+            background-color: black;
+            color: white;
+        }
+        .des{
+            margin: 30px;
+            font-size: 30px;
+        }
+        .h2{
+            background-color: black;
+            color: white;
+        }
+        ul.ques6{
+            font-size: 25px;
         }
     </style>
 </head>
 <body>
-    <div class="link1">
-        <a href="Q4.html" target="_blank">#4</a>
-        <a href="Q5.html" target="_blank">#5</a>
-        <a href="Q6.html" target="_blank">#6</a>
-    </div>
+    <h1>Assignment 4[4,5,6]</h1> <br> <br>
+    
+    <h1 class="ques4">Question 4</h1>
+    <p class="ques4">Does it matter to use relative size(%,em,rem) one styling the size of an element so that the element
+         is responsive ? Why ?</p>
+    <h2 title="the answer for above question" class="ques4">Solution:</h2>
+    <p class="ques4">Before skip to Solution . let us define em and rem</p>
+    <p class="ques4"> EM is one of the relative length specify the font size of the current element relative to its direct
+    (nearest) parent or a unit of topography its font size is equal to the current or parent font size    </p> 
+    <h5 class="ques4">Where as</h5>
+    <p class="ques4">REM is one of the relative length specify the font size of the current relative to only the root element  </p>
+    <p class="ques4">when we come to the solution the Answer is YES!!,the selection of the css unit matters its responsiveness</p>
+    <h4 class="ques4">for Example</h4>
+    <ul class="ques4">
+       <h2> using EM, we can achieve the following</h2>
+        <li>because of ability,we can acieve the design</li>
+        <li>we can make our website most Modular</li>
+        <li>we can loathed complexity</li>
+        <li>in short , we can achieve consisitency</li>
+    </ul>
+    <ul class="ques4">
+        <h2>using REM, we can acieve the following </h2>
+        <li>it is used to define margin properties more accurately than em</li>
+        <li>it is used to define padding properties more accurately than em</li>
+        <li>we can acieve consisitenct spacing without extra markup</li>
+        <li>we can simplify complex calculation</li>
+    </ul> 
+    <h2 class="ques4">My Argument</h2>
+    <p class="ques4">even though using REM,i achieved so many things like padding , margin and spacing it has some limitation so 
+        in my view it is preferable to use em unit because
+        <ol class="ques4">
+            <li>we can acieve padding and margin achieveb by REM using px</li>
+            <li>we can make the website more moduler</li>
+            <li>we can loath complexity</li>
+            <li>we can logical using em because we compare to the current situaton</li>
+        </ol>
+    </p> <br> 
+    <h1 class="ques5">Question 5</h1>
+    <p class="ques5">We said 16px is default browser width so what does it mean when we say 200px ? How does the browser interpret that ? </p>
+    <h2>Solution</h2> <br> <br>
+    <p class="des">the default means that if we not specifid the font - size the value of the property will be 16px. other wise 
+        the value of the font - size will be the given value.
+    </p> 
+    <p class="des">
+        when we came to how interpret , first of all The default is browser-dependent.different browsers interpret
+        the value unpredictably. For example, such text isn’t visible in the Mozilla browser. In Internet Explorer
+        or Macintosh and Safari, the text isn’t hidden, but, rather, is displayed at the default value of the font
+        size. The Opera browser displays the text at a smaller, but still legible, size. And Internet Explorer for 
+        Windows sets the type size to a small, illegible, but still visible line of text that appears to be equalto 
+        the size of 0.1em.Setting the size of the font with percentages causes the browser to calculate the size of 
+        the font based on the  size of the parent  element. For  example, if the font size for the body is set to 12
+        pixels and the font size for p element is set to 125%, the font size for the text in paragraphs is 15 pixels.
+    </p> <br>
+    <h1 class="ques6">Question 6</h1>
+    <p class="ques6">Explain in detail(in technical terms) the specific changes in css3?    </p>
+    <h2 class="h2">Solution:</h2> <br><br>
+
+    <h2 class="ques6">the current version of CSS are CSS3. the following point are added from previous version</h2>
+    <ul class="ques6">
+        <li>Rounded border is added to any html element like table ,div in CSS3</li>
+        <li>border radius element is added in CSS3</li>
+        <li>gradient style  attribute is added. A gradient style will set a subtle change of one color to the next within 
+            a specified tag.</li>
+        <li>Shadowing effect is added.Shadows give out html elemnt like  buttons, text or div tags some depth and a 3 dimensional</li>
+        <li>we can create variable, animation with any html element with using transform property</li>
+        <li>allow gradient , web form ,advance selector and few built in function that differ greatly
+            form previous version
+        </li>
+    </ul> <br> <br>
+     <h1 style="color: red; text-align: center; border: 1px solid black;">16/03/2020</h1>
+     
 </body>
 </html>
